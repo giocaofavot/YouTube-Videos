@@ -1,0 +1,36 @@
+<html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre mí</title>
+</head>
+<body>
+  <header>
+    <h1>Mi nombre</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Quién soy</h2>
+      <p>Soy Gio.</p>
+    </section>
+
+    <section>
+      <h2>Mis metas</h2>
+      <ul>
+        <li>Aprender HTML</li>
+        <li>Entender antes que memorizar</li>
+        <li>Compartir lo que aprendo</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 — Clase Pública</p>
+  </footer>
+</body>
+</html>
