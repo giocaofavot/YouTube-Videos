@@ -1,0 +1,57 @@
+<html>
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre mí</title>
+</head>
+<body>
+  <header>
+    <h1>Mi nombre</h1>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="https://www.youtube.com/@ClaseP%C3%BAblica" target="_blank">Mi Canal <cite>Clase Pública</cite></a>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Quién soy</h2>
+      <p>Soy Gio.</p>
+      <blockquote>
+        <p>
+          Enseñar no es transferir conocimiento, sino crear las posibilidades para su producción.
+        </p>
+        <footer>— Paulo Freire</footer>
+      </blockquote>
+    </section>
+
+    <section>
+      <h2>Mis metas</h2>
+      <ol>
+        <li><strong>Aprender</strong> HTML</li>
+        <li><strong>Entender</strong> antes que memorizar</li>
+        <li><strong>Compartir</strong> lo que aprendo</li>
+      </ol>
+    </section>
+    <section>
+      <h2> Herramientas que uso:</h2>
+      <ul>
+        <li><code> Studio Code </code></li>
+        <li><code>GitHub</code></li>
+        <li><code>Google Chrome</code></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 &mdash; Clase Pública</p>
+  </footer>
+  <!-- 
+  TODO: 
+  - Agregar sección de contacto
+  - Revisar ortografía
+  - Subir a GitHub
+-->
+</body>
+</html>
