@@ -7,3 +7,4 @@
 - Video #4: Imágenes y atributos: cómo darle vida a tu página (y por qué alt no es opcional)
 - Video #5: Formularios simples: recoger información con intención y cuidado
 - Video #6: cómo preparar tu HTML para lo que viene
+- Video #7: Tablas semánticas — datos estructurados, no diseño
