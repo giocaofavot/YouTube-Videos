@@ -8,4 +8,4 @@
 - Video #5: Formularios simples: recoger información con intención y cuidado
 - Video #6: cómo preparar tu HTML para lo que viene
 - Video #7: Tablas semánticas — datos estructurados, no diseño
-- Video #11: Selectores en CSS — clases, IDs, especificidad y combinadores
+- Video #13: Selectores en CSS — clases, IDs, especificidad y combinadores
