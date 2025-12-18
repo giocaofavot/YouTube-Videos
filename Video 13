@@ -1,0 +1,118 @@
+style.css
+
+h2 {
+  color: #2E5A88;
+}
+
+.menu {
+  display: flex;
+  gap: 1rem;
+}
+
+#pie { padding: 2rem; }
+
+h2 { color: red; }           /* Etiqueta */
+.destacado { color: blue; }  /* Clase */
+#cabecera h2 { color: green; } /* ID + Etiqueta → más específico */
+
+.menu > a {
+  margin-right: 1rem;
+}
+
+h2 + p {
+  margin-top: 0.5rem;
+}
+
+h2 ~ p {
+  font-weight: bold;
+}
+
+.destacado {
+  color: blue !important;
+}
+
+.recursos-link {
+  text-decoration: none;
+  color: #6B7280;
+  font-weight: 500;
+}
+
+
+index.html
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="description" content="Clase Pública: una ruta para aprender programación web con secuencia clara, sin apuro y con intención pedagógica.">
+<meta name="author" content="Gio Batta Cao Favot">
+<meta name="keywords" content="html, educación, programación para docentes">
+<meta property="og:title" content="Clase Pública">
+<meta property="og:description" content="Programación web. Secuencia clara.">
+<meta property="og:image" content="img/foto.png.png">
+<meta property="og:url" content="https://www.youtube.com/@ClaseP%C3%BAblica">  
+
+<title>Clase Pública</title>
+  <!-- Estilos -->
+<link rel="stylesheet" href="style.css">
+
+<!-- Comportamiento -->
+<script src="script.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>Clase Pública</h1>
+    <nav class="menu">
+      <a href="index.html">Inicio</a>
+      <a href="sobre.html">Sobre mí</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+  <main>
+   <section>
+      <h2>Bienvenidos</h2>
+      <p>Este es un espacio para aprender programación web desde cero, paso a paso y con calma.</p>
+    </section>
+
+    <section >
+      <h2>Recursos</h2>
+      <ul>
+        <li><a href="sobre.html" class="recursos-link">Sobre mí</a></li>
+        <li><a href="contacto.html" class="recursos-link">Contacto</a></li>
+        <li><a href="horario.html" class="recursos-link">Horario escolar (ejemplo)</a></li>
+      </ul>
+    </section>
+    <section>
+  <h2>Audio explicativo</h2>
+  <audio controls>
+    <source src="media/saludo.wav" type="audio/mpeg">
+    Tu navegador no soporta audio. 
+    <a href="media/saludo.wav" download>Descargá el audio aquí</a>.
+  </audio>
+</section>
+
+<section>
+  <h2>Video demostrativo</h2>
+  <video controls width="600">
+    <source src="media/explicacion.mp4" type="video/mp4">
+    <track 
+      kind="captions" 
+      src="media/explicacion.vtt.txt" 
+      srclang="es" 
+      label="Español" 
+      default>
+    Tu navegador no soporta video. 
+    <a href="media/explicacion.mp4" download>Descargá el video aquí</a>.
+  </video>
+</section>
+  </main>
+
+  <footer id="pie">
+    <p>© 2025 — Clase Pública. Secuencia clara</p>
+  </footer>
+  </main>
+</body>
+</html>
