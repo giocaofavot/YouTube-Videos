@@ -9,3 +9,4 @@
 - Video #6: cómo preparar tu HTML para lo que viene
 - Video #7: Tablas semánticas — datos estructurados, no diseño
 - Video #13: Selectores en CSS — clases, IDs, especificidad y combinadores
+- Video #13.5: Cómo organizar tu CSS sin volverte loco (orden y legibilidad)
